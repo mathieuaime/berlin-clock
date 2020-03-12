@@ -1,9 +1,9 @@
 package com.excilys.berlinclock;
 
-import java.time.LocalTime;
+import com.excilys.berlinclock.color.Red;
+import com.excilys.berlinclock.extractor.Hour;
+import com.excilys.berlinclock.row.SingleRow;
+import com.excilys.berlinclock.size.MediumSize;
 
-public class SingleHoursRow {
-    public String convert(LocalTime time) {
-        return null;
-    }
+public class SingleHoursRow implements SingleRow, Hour, Red, MediumSize {
 }

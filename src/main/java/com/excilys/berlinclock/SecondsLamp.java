@@ -1,9 +1,9 @@
 package com.excilys.berlinclock;
 
-import java.time.LocalTime;
+import com.excilys.berlinclock.color.Yellow;
+import com.excilys.berlinclock.extractor.Second;
+import com.excilys.berlinclock.row.Lamp;
+import com.excilys.berlinclock.size.LittleSize;
 
-public class SecondsLamp {
-    public String convert(LocalTime time) {
-        return null;
-    }
+public class SecondsLamp implements Lamp, Second, Yellow, LittleSize {
 }

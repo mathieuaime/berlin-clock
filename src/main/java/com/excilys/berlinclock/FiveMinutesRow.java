@@ -1,9 +1,9 @@
 package com.excilys.berlinclock;
 
-import java.time.LocalTime;
+import com.excilys.berlinclock.color.YellowAndRed;
+import com.excilys.berlinclock.extractor.Minute;
+import com.excilys.berlinclock.row.FiveRow;
+import com.excilys.berlinclock.size.BigSize;
 
-public class FiveMinutesRow {
-    public String convert(LocalTime time) {
-        return null;
-    }
+public class FiveMinutesRow implements FiveRow, Minute, YellowAndRed, BigSize {
 }
